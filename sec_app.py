@@ -95,4 +95,4 @@ def delete_book(book_id):
     return jsonify({'message': 'Book not found'}), 404
 
 if __name__ == '__main__':
-
+    app.run()
